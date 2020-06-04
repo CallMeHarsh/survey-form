@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surevey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <h1 id="title">BecomeCoder Survey Form </h1> 
+    <p id="description">begin your coding journey today</p>
+    <form id="survey-form">
+        <div>
+            <label id="name-label">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required /><br></div><br><br>
+        <div>
+            <label id="email-label">Email</label><br>
+            <input type="email" placeholder="Enter your email" id="email" required><br></div><br><br>
+        <div>
+            <label id="number-label">Number</label><br>
+            <input type="number" placeholder="Phone number" id="number" min="0" max="9999999999"><br></div><br><br>
+        <div>
+            <label for="Select ypur level" id="drop">Select your level</label><br>
+
+            <select id="dropdown">
+                <option value="beginner">beginner</option>
+                <option value="intermediate">intermediate</option>
+                <option value="advance">advance</option>
+            </select>
+        </div><br><br>
+        <div class="radio">
+            Select your gender<br>
+            <label>
+                <input type="radio" name="tech" value="male">male
+            </label><br>
+            <label>
+                <input type="radio" name="tech" value="female">female
+            </label><br>
+            <label>
+                <input type="radio" name="tech" value="other">other
+            </label><br>
+        </div><br><br>
+
+        <div class="checkbox">
+            Select your favorate technolgy<br>
+            <label>
+                <input type="checkbox" name="tech" value="web development">web development
+            </label><br>
+            <label>
+                <input type="checkbox" name="tech" value="software development">software development
+            </label><br>
+            <label>
+                <input type="checkbox" name="tech" value="cloud computing">cloud computing
+            </label><br>
+        </div><br><br>
+        <div class="comment">
+            Comments or Suggestions<br>
+            <textarea class="box">Type Here</textarea>
+        </div><br><br>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+
+</html>
